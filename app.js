@@ -17,9 +17,14 @@ app.get('/', (req, res) => {
     res.render('index', {
         sujet: 'Accueil',
         styleLink: "/style/style.css",
+        navLogoImg: "/img/musicapi.svg",
         navHomeName: "Accueil",
         navDocsName: "Docs",
         navContactName: "Contact",
+        homeImg: "/img/api-music-illustration.png",
+        homeLink: "/",
+        contactLink: "/contact",
+        docsLink: "/docs",
     });
 });
 

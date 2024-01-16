@@ -1,0 +1,16 @@
+{
+  "name": "MusiCatalogAPI",
+  "version": "1.0.0",
+  "description": "An API of few artists and tracks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nathuz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}

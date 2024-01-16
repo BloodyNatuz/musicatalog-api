@@ -11,16 +11,33 @@
 <body>
     <nav>
         <div class="nav-group">
-            <a href="#" class="nav-link">
-                <img src="" alt="Logo de Musicatalog">
+            <a href={{homeLink}} class="nav-link">
+                <img src={{navLogoImg}} alt="Logo de Musicatalog.">
             </a>
         </div>
         <div class="nav-group">
-            <a href="#" class="nav-link">{{navHomeName}}</a>
-            <a href="#" class="nav-link">{{navDocsName}}</a>
-            <a href="#" class="nav-link">{{navContactName}}</a>
+            <a href={{homeLink}} class="nav-link">{{navHomeName}}</a>
+            <a href={{docsLink}} class="nav-link">{{navDocsName}}</a>
+            <a href={{contactLink}} class="nav-link">{{navContactName}}</a>
         </div>
     </nav>
-    <h1>Hello World!</h1>
+    <main>
+        <article>
+            <h1>Musicatalog</h1>
+            <h2>A music API</h2>
+            <p>Ce site est bien plus qu'une simple plateforme – c'est un terrain d'entraînement conçu pour les développeurs qui cherchent à apprendre et perfectionner leurs compétences avec des interfaces de programmation d'applications (API).</p>
+            <a href={{docsLink}} class="primary-btn">Voir la documentation →</a>
+        </article>
+        <article>
+            <img src={{homeImg}} alt="Illustration représentant le fonctionnement d'une API de façon abstraite.">
+        </article>
+    </main>
+    <footer>
+        <a>Copyright © 2024 nathuz.fr</a>
+        <a href={{homeLink}}>Accueil</a>
+        <a href={{docsLink}}>Documentation</a>
+        <a href={{contactLink}}>Contact</a>
+        <a href="#">Mentions légales</a>
+    </footer>
 </body>
 </html>
